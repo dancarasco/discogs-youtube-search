@@ -110,4 +110,8 @@ src/
     style.css            Styles, all prefixed dtv- to stay clear of Discogs' own
 ```
 
+## Licence
+
+[MIT](LICENSE). Use it, change it and share it as you like.
+
 Tracklist Videos for Discogs isn't made by or affiliated with Discogs or YouTube.
