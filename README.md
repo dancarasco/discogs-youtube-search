@@ -1,5 +1,7 @@
 # Tracklist Videos for Discogs
 
+![The extension filling in the tracklist of Source Lab 3 X on Discogs, part way through its search](docs/screenshot.webp)
+
 A Chrome extension that finds every track of a Discogs release on YouTube, shows each match in the tracklist, and plays the whole record.
 
 Open a release or master page on [Discogs](https://www.discogs.com) and press **Find tracks on YouTube** above the tracklist. Each row fills in as its search finishes, with the best upload's thumbnail, title, channel and length. When the search is done you can:
