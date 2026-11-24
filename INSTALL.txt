@@ -1,0 +1,32 @@
+Tracklist Videos for Discogs
+============================
+
+Finds every track of a Discogs release on YouTube, right in the tracklist,
+and plays the whole record.
+
+Install (Chrome, Brave, Edge or Arc)
+------------------------------------
+1. Unzip this file. Keep the folder somewhere it will stay (not Downloads,
+   if you clear that out): Chrome loads the extension from this folder.
+2. Open chrome://extensions in the address bar.
+3. Turn on "Developer mode" (top right).
+4. Click "Load unpacked" and choose the unzipped folder
+   (the one with manifest.json in it).
+5. Open any Discogs release, for example
+   https://www.discogs.com/release/1998249
+   and press "Find tracks on YouTube" above the tracklist.
+
+Chrome may show a "Disable developer mode extensions" notice now and then.
+That is normal for extensions installed this way: choose Keep / Cancel.
+
+Using it
+--------
+- Each track gets its best YouTube upload beside it. Click it to play.
+- "Play all" plays the record track after track in the player at the
+  bottom right. The small thumbnails under the video are other uploads.
+- "Open as YouTube playlist" opens every match as one playlist on YouTube.
+
+Updating
+--------
+Unzip the new version over the old folder, then press the reload arrow on
+the extension's card in chrome://extensions.

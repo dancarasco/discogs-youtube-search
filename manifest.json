@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Tracklist Videos for Discogs",
+  "version": "0.1.0",
+  "description": "Finds every track of a Discogs release on YouTube, right in the tracklist, and plays the whole record.",
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.discogs.com/*"
+      ],
+      "js": [
+        "dist/content.js"
+      ],
+      "css": [
+        "src/content/style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://api.discogs.com/*",
+    "https://music.youtube.com/*",
+    "https://www.youtube.com/*"
+  ],
+  "permissions": [
+    "storage",
+    "declarativeNetRequestWithHostAccess"
+  ]
+}

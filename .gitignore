@@ -1,0 +1,6 @@
+.DS_Store
+# Where the search module and build tools live on this machine (see build.mjs)
+build.local.json
+# Build outputs: node build.mjs (dist) and node package.mjs (release zip)
+dist/
+release/
